@@ -108,4 +108,6 @@ public abstract class Employe {
     public void augmenterSalaire(Double taux){
         this.salaire += this.salaire * taux;
     }
+
+    public abstract Double getPrimeAnnuelle();
 }
